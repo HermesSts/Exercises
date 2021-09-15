@@ -1,0 +1,1 @@
+Jogo de adivinhar palavras, para treino em c# (if, else, while etc.)
