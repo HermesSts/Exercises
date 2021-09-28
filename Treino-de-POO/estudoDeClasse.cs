@@ -10,27 +10,29 @@ namespace CSharp_Shell
 	{
 		public static void Main(String[] args)
 		{
-			Passaro pombo = new Passaro();
-			pombo.cor = "preto";
-			pombo.tamanho = 25;
-			pombo.voar();
+		Homem homem1 = new Homem(165, "Marcos", 25);
+		Console.WriteLine($"{homem1.Nome} tem {homem1.Idade} anos e mede {homem1.Altura}cm.");
+		Homem homem2 = new Homem(170, "Marta", 39);
+		Console.WriteLine($"{homem2.Nome} tem {homem2.Idade} anos e mede {homem2.Altura}cm.");
 
-			Passaro rola = new Passaro();
-			rola.cor = "azul";
-			rola.tamanho = 14;
-			rola.voar();
 		}
 
-	}
-	public class Passaro
-	{
-		public string cor;
-		public int tamanho;
-
-		public void voar()
+		public class Homem
 		{
-			Console.WriteLine("um passaro de cor " + cor + " e tamanho " + tamanho + "cm esta voando agora!", cor, tamanho);
-		}
+			public int Altura;
+			public string Nome;
+			public int Idade;
 
+
+			public Homem(int altura, string nome, int idade)
+			{
+				Altura = altura;
+				Nome = nome;
+				Idade = idade;
+				
+			}
+		}
 	}
 }
+
+
