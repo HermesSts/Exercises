@@ -1,3 +1,5 @@
+//Treino de POO sobre construtores e forma diferente
+//instaciar objetos.
 using System;
 using System.IO;
 using System.Linq;
