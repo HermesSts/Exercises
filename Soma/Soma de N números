@@ -1,0 +1,4 @@
+Programa que recebe um valor N e soma esses valores de 1 até N.
+Caso o número seja maior que 350 ele não imprime
+os valores na tela, apenas o resultado final pois foi feito
+no celular e puxava muito do desempenho do mesmo.
